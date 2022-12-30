@@ -1,4 +1,4 @@
-:root {
+/* :root {
   --text-color: rgba(33, 33, 33, 1);
   --text-color-second: rgba(117, 117, 117, 1);
   --text-color-third: rgba(255, 255, 255, 1);
@@ -9,14 +9,14 @@
   --button-color: rgba(245, 244, 250, 1);
   --border-header: rgba(236, 236, 236, 1);
   --icon-team-color: rgba(175, 177, 184, 1);
-}
+} */
 
-body {
+/* body {
   font-family: "Roboto", sans-serif;
   color: var(--text-color);
-}
+} */
 
-a {
+/* a {
   text-decoration: none;
   color: inherit;
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -25,44 +25,45 @@ a {
 a:hover,
 a:focus {
   color: var(--mark-color);
-}
+} */
 
-.container > .section > .motto {
+/* .container > .section > .motto {
   width: 1200px;
   margin: 0 auto;
-}
+} */
 
-.content-width {
+/* .content-width {
   max-width: 1200px;
   margin: 0 auto;
   /* border-color: pink;
   border-width: 1px;
-  border-style: dashed; */
-}
+  border-style: dashed;
+} */
 
-.logo {
+/* .logo {
   font-family: "Raleway", sans-serif;
   font-size: 26px;
   font-weight: 700;
   line-height: 1.19;
   text-decoration: none;
-}
+} */
 
-.web {
+/* .logo--color1 {
   color: var(--mark-color);
-}
+} */
 
-.studio {
+/* .logo--color2 {
   color: var(--studio-color);
-}
+} */
 
-.studio-second {
+/* .logo--color3 {
   color: var(--text-color-third);
-}
+} */
 
-.header-text {
+/* .header-text {
+  width: 1200px;
+  margin: 0 auto;
   display: flex;
-  margin: 0px;
   padding: 0 215px 0 215px;
   min-height: 80px;
   justify-content: space-between;
@@ -74,10 +75,10 @@ a:focus {
   position: relative;
   /* border-color: pink;
   border-width: 1px;
-  border-style: dashed; */
-}
+  border-style: dashed;
+} */
 
-.header-navigation {
+/* .header-navigation {
   display: flex;
   margin: 0 auto;
   justify-content: space-between;
@@ -86,21 +87,21 @@ a:focus {
   bottom: -1px;
   left: 453px;
   padding: 0;
-  /* border-color: pink;
+  border-color: pink;
   border-width: 1px;
-  border-style: dashed; */
-}
+  border-style: dashed;
+} */
 
-.header-navigation-item:nth-child(-n + 2) {
+/* .header-navigation-item:nth-child(-n + 2) {
   padding-right: 46px;
   padding-bottom: 0;
-}
+} */
 
-.is-active {
+/* .is-active {
   color: var(--mark-color);
-}
+} */
 
-.is-active::after {
+/* .is-active::after {
   content: "";
   width: 53px;
   height: 4px;
@@ -110,32 +111,39 @@ a:focus {
   color: var(--mark-color);
   border-radius: 2px;
   margin-top: 28px;
-}
+} */
 
-.two::after {
+/* .two::after {
+    content: "";
   width: 58px;
   height: 4px;
-}
+  background-size: contain;
+  display: block;
+  background-color: var(--mark-color);
+  color: var(--mark-color);
+  border-radius: 2px;
+  margin-top: 28px;
+} */
 
-.header-address {
+/* .header-address {
   display: flex;
   width: 666px;
   padding: 0 0 0 325px;
   justify-content: flex-end;
   list-style: none;
   align-items: flex-start;
-}
+} */
 
-.list {
+/* .list {
   display: flex;
-}
+} */
 
-.contact {
+/* .contact {
   color: var(--text-color-second);
   padding: 0 0 0 10px;
-}
+} */
 
-.list:hover svg,
+/* .list:hover svg,
 .list:focus svg {
   fill: var(--mark-color);
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -144,15 +152,15 @@ a:focus {
 .list:hover a,
 .list:focus a {
   color: var(--mark-color);
-}
+} */
 
-.section {
+/* .section {
   padding: 94px 0 94px 0;
-}
+} */
 
-.section-two {
+/* .section-two {
   padding: 0 0 94px 0;
-}
+} */
 
 .portfolio-button {
   display: flex;
@@ -222,7 +230,7 @@ a:focus {
   list-style: none;
 }
 
-.motto {
+/* .motto {
   max-width: 1600px;
   margin: 0 auto;
   padding: 200px 0 200px 0;
@@ -234,9 +242,9 @@ a:focus {
     url(../images/imgbackground.jpg);
   background-size: cover;
   text-align: center;
-}
+} */
 
-.motto h1 {
+/* .motto h1 {
   max-width: 696px;
   padding: 0 20px 30px 20px;
   color: var(--text-color-third);
@@ -246,9 +254,9 @@ a:focus {
   line-height: 1.36;
   text-transform: uppercase;
   text-align: center;
-}
+} */
 
-.button-alternative {
+/* .button-alternative {
   background-color: var(--mark-color);
   width: 200px;
   height: 50px;
@@ -260,59 +268,59 @@ a:focus {
   line-height: 1.87;
   color: var(--text-color-third);
   cursor: pointer;
-}
+} */
 
-.text-main {
+/* .text-main {
   display: flex;
   margin: 0 auto;
   padding: 0;
   max-width: 1170px;
   list-style: none;
-}
+} */
 
-.text-main li:nth-child(-n + 3) {
+/* .text-main li:nth-child(-n + 3) {
   padding: 0 30px 0 0;
-}
+} */
 
-.header-third {
+/* .header-third {
   margin: 0;
   font-size: 14px;
   font-weight: 700;
   line-height: 1.17;
   text-transform: uppercase;
-}
+} */
 
-.text-main-item {
+/* .text-main-item {
   margin: 0;
   padding: 10px 0 0 0;
   font-size: 14px;
   line-height: 1.71;
   color: var(--text-color-second);
-}
+} */
 
-.header-second {
+/* .header-second {
   margin: 0;
   font-size: 36px;
   font-weight: 700;
   line-height: 1.17;
   text-align: center;
-}
+} */
 
-.section-two-pictures {
+/* .section-two-pictures {
   list-style: none;
   display: flex;
   padding: 50px 15px 0 15px;
   margin: 0 auto;
   justify-content: space-between;
-}
+} */
 
-.section-two-pictures-img {
+/* .section-two-pictures-img {
   position: relative;
   max-width: 370px;
   max-height: 294px;
-}
+} */
 
-.section-two-pictures-img > .section-two-pictures-text {
+/* .section-two-pictures-img > .section-two-pictures-text {
   color: var(--text-color-third);
 
   position: absolute;
@@ -327,7 +335,7 @@ a:focus {
   min-height: 70px;
   text-align: center;
   padding: 27px;
-}
+} */
 
 #agencja {
   background-color: var(--button-color);
@@ -437,15 +445,15 @@ a:focus {
   margin: 0;
 }
 
-.icon-header {
+/* .icon-header {
   width: 20px;
   height: 16px;
   fill: var(--text-color-second);
-}
+} */
 
-.smartphone {
+/* .smartphone {
   margin: 0 0 0 20px;
-}
+} */
 
 .footer-icons {
   list-style: none;
@@ -549,14 +557,14 @@ a:focus {
   margin: 0 auto;
 }
 
-.icon-main {
+/* .icon-main {
   max-width: 270px;
   max-height: 120px;
   padding: 25px 0;
   background-color: var(--button-color);
   border-radius: 4px;
   margin-bottom: 30px;
-}
+} */
 
 .icon-team {
   width: 44px;
@@ -713,7 +721,7 @@ a:focus {
 .modal-content input:hover,
 .modal-content input:focus {
   border-color: var(--mark-color);
-    fill: var(--mark-color);
+  fill: var(--mark-color);
 }
 
 .modal-content svg {
@@ -731,7 +739,7 @@ a:focus {
 .modal-content input:hover + svg,
 .modal-content input:focus + svg {
   border-color: var(--mark-color);
-    fill: var(--mark-color);
+  fill: var(--mark-color);
 }
 
 .modal-terms {

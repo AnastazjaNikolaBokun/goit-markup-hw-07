@@ -18,67 +18,73 @@
     <link rel="stylesheet" href="css/styles.css" />
   </head>
 
-  <body>
-    <header class="header-text container">
-      <a href="index.html"
-        ><span class="logo web">Web</span
-        ><span class="logo studio">Studio</span></a
+  <body class="body">
+    <header class="header">
+      <a href="index.html" class="link"
+        ><span class="logo logo--color1">Web</span
+        ><span class="logo logo--color2">Studio</span></a
       >
       <nav>
-        <ul class="header-navigation">
-          <li class="header-navigation-item">
-            <a href="#agencja" class="is-active">Agencja</a>
+        <ul class="header__navigation">
+          <li class="header__navigation header__navigation--item">
+            <a href="#agencja" class="link link--is-active-agencja">Agencja</a>
           </li>
-          <li class="header-navigation-item">
+          <li class="header__navigation header__navigation--item">
             <a href="portfolio.html">Portfolio</a>
           </li>
-          <li class="header-navigation-item"><a href="#kontakt">Kontakt</a></li>
+          <li class="header__navigation header__navigation--item">
+            <a href="#kontakt" class="link">Kontakt</a>
+          </li>
         </ul>
       </nav>
-      <ul class="header-address">
-        <div class="list">
+      <ul class="header__address">
+        <div class="header__address header__adres--list">
           <li>
-            <a class="contact" href="mailto:info@devstudio.com">
-              <svg class="icon-header">
+            <a class="link link--color" href="mailto:info@devstudio.com">
+              <svg class="header__icon">
                 <use href="./images/icons.svg#icon-envelope"></use>
               </svg>
             </a>
           </li>
           <li>
-            <a class="contact" href="mailto:info@devstudio.com">
+            <a class="link link--color" href="mailto:info@devstudio.com">
               info@devstudio.com</a
             >
           </li>
         </div>
-        <div class="list">
+        <div class="header__address header__adres--list">
           <li>
-            <a class="contact" href="tel:+48111111111">
-              <svg class="icon-header smartphone">
+            <a class="link link--color" href="tel:+48111111111">
+              <svg class="header__icon header__icon--smartphone">
                 <use href="./images/icons.svg#icon-smartphone"></use>
               </svg>
             </a>
           </li>
           <li>
-            <a class="contact" href="tel:+48111111111">+48 111 111 111</a>
+            <a class="link link--color" href="tel:+48111111111"
+              >+48 111 111 111</a
+            >
           </li>
         </div>
       </ul>
     </header>
     <main class="container">
-      <section class="motto section">
-        <h1 id="webstudio">Efektywne Rozwiązania Dla Waszego Biznesu</h1>
+      <section class="main-banner">
+        <h1 class="main-banner__h1" id="webstudio">
+          Efektywne Rozwiązania Dla Waszego Biznesu
+        </h1>
         <button type="button" class="button-alternative" data-modal-open>
           Zamów usługe
         </button>
       </section>
       <section class="section">
-        <ul class="text-main">
+        <ul class="list1">
           <li>
             <svg class="icon-main">
               <use href="./images/icons.svg#icon-antenna"></use>
             </svg>
             <h3 class="header-third">Lorem Ipsum</h3>
-            <p class="text-main-item">
+            <p class="list1__item">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel
               arcu sem. Sed non sodales dui. Interdum et malesuada
             </p>
@@ -88,7 +94,7 @@
               <use href="./images/icons.svg#icon-clock"></use>
             </svg>
             <h3 class="header-third">Lorem Ipsum</h3>
-            <p class="text-main-item">
+            <p class="list1__item">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel
               arcu sem. Sed non sodales dui. Interdum et malesuada
             </p>
@@ -98,7 +104,7 @@
               <use href="./images/icons.svg#icon-diagram"></use>
             </svg>
             <h3 class="header-third">Lorem Ipsum</h3>
-            <p class="text-main-item">
+            <p class="list1__item">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel
               arcu sem. Sed non sodales dui. Interdum et malesuada
             </p>
@@ -108,7 +114,7 @@
               <use href="./images/icons.svg#icon-astronaut"></use>
             </svg>
             <h3 class="header-third">Lorem Ipsum</h3>
-            <p class="text-main-item">
+            <p class="list1__item">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel
               arcu sem. Sed non sodales dui. Interdum et malesuada
             </p>
@@ -118,33 +124,33 @@
       <section class="section-two" id="portfolio">
         <div class="content-width">
           <h2 class="header-second">Czym się zajmujemy</h2>
-          <ul class="section-two-pictures">
-            <li class="section-two-pictures-img">
+          <ul class="picture-list1">
+            <li class="picture-list1__img">
               <img
                 src="images/img1.jpg"
                 width="370"
                 height="294"
                 alt="praca przy komputerze"
               />
-              <p class="section-two-pictures-text">aplikacje komputerowe</p>
+              <p class="picturelist1__picture-text">aplikacje komputerowe</p>
             </li>
-            <li class="section-two-pictures-img">
+            <li class="picture-list1__img">
               <img
                 src="images/img2.jpg"
                 width="370"
                 height="294"
                 alt="praca przy komputerze"
               />
-              <p class="section-two-pictures-text">aplikacje mobilne</p>
+              <p class="picturelist1__picture-text">aplikacje mobilne</p>
             </li>
-            <li class="section-two-pictures-img">
+            <li class="picture-list1__img">
               <img
                 src="images/img3.jpg"
                 width="370"
                 height="294"
                 alt="praca przy komputerze"
               />
-              <p class="section-two-pictures-text">rozwiązania graficzne</p>
+              <p class="picturelist1__picture-text">rozwiązania graficzne</p>
             </li>
           </ul>
         </div>
@@ -474,8 +480,8 @@
       <div class="footer-content-width">
         <section class="content-footer-one">
           <a href="index.html"
-            ><span class="logo web">Web</span
-            ><span class="logo studio-second">Studio</span></a
+            ><span class="logo logo--color1">Web</span
+            ><span class="logo logo--color3">Studio</span></a
           >
           <address id="kontakt">
             <ul class="footer-address">

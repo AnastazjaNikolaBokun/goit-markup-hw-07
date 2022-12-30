@@ -18,48 +18,52 @@
     <link rel="stylesheet" href="css/styles.css" />
   </head>
 
-  <body>
-    <header class="header-text container">
-      <a href="index.html"
-        ><span class="logo web">Web</span
-        ><span class="logo studio">Studio</span></a
+  <body class="body">
+    <header class="header">
+      <a href="index.html" class="link"
+        ><span class="logo logo--color1">Web</span
+        ><span class="logo logo--color2">Studio</span></a
       >
       <nav>
-        <ul class="header-navigation">
-          <li class="header-navigation-item">
-            <a href="index.html">Agencja</a>
+        <ul class="header__navigation">
+          <li class="header__navigation header__navigation--item">
+            <a href="index.html" class="link">Agencja</a>
           </li>
-          <li class="header-navigation-item">
-            <a href="portfolio.html" class="is-active two">Portfolio</a>
+          <li class="header__navigation header__navigation--item">
+            <a href="portfolio.html" class="link link--is-active-portfolio"
+              >Portfolio</a
+            >
           </li>
-          <li class="header-navigation-item"><a href="#kontakt">Kontakt</a></li>
+          <li class="header__navigation header__navigation--item">
+            <a href="#kontakt" class="link">Kontakt</a>
+          </li>
         </ul>
       </nav>
-      <ul class="header-address">
-        <div class="list">
+      <ul class="header__address">
+        <div class="header__address header__adres--list">
           <li>
-            <a class="contact" href="mailto:info@devstudio.com">
-              <svg class="icon-header">
+            <a class="link link--color" href="mailto:info@devstudio.com">
+              <svg class="header__icon">
                 <use href="./images/icons.svg#icon-envelope"></use>
               </svg>
             </a>
           </li>
           <li>
-            <a class="contact" href="mailto:info@devstudio.com">
+            <a class="link link--color" href="mailto:info@devstudio.com">
               info@devstudio.com</a
             >
           </li>
         </div>
-        <div class="list">
+        <div class="header__address header__adres--list">
           <li>
-            <a class="contact" href="tel:+48111111111">
-              <svg class="icon-header smartphone">
+            <a class="link link--color" href="tel:+48111111111">
+              <svg class="header__icon header__icon--smartphone">
                 <use href="./images/icons.svg#icon-smartphone"></use>
               </svg>
             </a>
           </li>
           <li>
-            <a class="contact" href="tel:+48111111111">+48 111 111 111</a>
+            <a class="link link--color" href="tel:+48111111111">+48 111 111 111</a>
           </li>
         </div>
       </ul>
@@ -285,8 +289,8 @@
       <div class="footer-content-width">
         <section class="content-footer-one">
           <a href="index.html"
-            ><span class="logo web">Web</span
-            ><span class="logo studio-second">Studio</span></a
+            ><span class="logo logo--color1">Web</span
+            ><span class="logo logo--color3">Studio</span></a
           >
           <address id="kontakt">
             <ul class="footer-address">

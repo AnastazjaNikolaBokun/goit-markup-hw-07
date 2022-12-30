@@ -1,0 +1,13 @@
+.button-alternative {
+  background-color: var(--mark-color);
+  width: 200px;
+  height: 50px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border: none;
+  border-radius: 4px;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.87;
+  color: $text-color-third;
+  cursor: pointer;
+}
