@@ -37,7 +37,13 @@
   margin-top: 28px;
 }
 
-.link-color {
+.link--color {
   color: $text-color-second;
   padding: 0 0 0 10px;
+}
+
+.link--contact-footer {
+  display: block;
+  color: $text-color-fourth;
+  padding: 9px 0 0 0;
 }

@@ -1,5 +1,8 @@
 .section {
   padding: 94px 0 94px 0;
+  &__background {
+    background-color: $button-color;
+  }
 }
 
 .section-two {
