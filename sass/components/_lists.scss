@@ -39,7 +39,7 @@
   }
 }
 
-.picture-list1__img > .picturelist1__picture-text {
+.picture-list1__img > .picture-list1__picture-text {
   color: $text-color-third;
   position: absolute;
   bottom: 0;
@@ -77,16 +77,18 @@
     line-height: 1.18;
     text-align: center;
   }
+  &__text {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.18;
+    color: $text-color-second;
+  }
   &__icons {
     display: flex;
     margin: 0 auto;
     justify-content: space-between;
     padding: 0 32px;
   }
-}
-
-.picture-list2--text-color {
-  color: $text-color-second;
 }
 
 .picture-list3 {
@@ -119,8 +121,10 @@
     background-color: rgba(33, 150, 243, 0.9);
     color: $text-color-third;
     transform: translateY(100%);
-    font-size: 18px;
-    line-height: 1.55;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.87;
+    margin: 0;
   }
   &__picture {
     position: relative;
