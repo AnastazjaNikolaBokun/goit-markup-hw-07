@@ -9,12 +9,11 @@
   }
 }
 
-.link--is-active-agencja {
+.link--is-active {
   color: $mark-color;
 
   &::after {
     content: "";
-    width: 53px;
     height: 4px;
     background-size: contain;
     display: block;
@@ -25,16 +24,20 @@
   }
 }
 
-.link--is-active-portfolio::after {
-  content: "";
-  width: 58px;
-  height: 4px;
-  background-size: contain;
-  display: block;
-  background-color: $mark-color;
-  color: $mark-color;
-  border-radius: 2px;
-  margin-top: 28px;
+.link--is-active-agencja {
+  &::after {
+    content: "";
+    width: 53px;
+  }
+  @extend .link--is-active;
+}
+
+.link--is-active-portfolio {
+  &::after {
+    content: "";
+    width: 58px;
+  }
+  @extend .link--is-active;
 }
 
 .link--color {
